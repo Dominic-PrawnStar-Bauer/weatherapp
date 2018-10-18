@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.input-and-button {
+    margin-bottom: 50;
+}
+
+.middle-input-and-button {
+    flex-direction: column;
+}
+
+.top-input-and-button {
+    flex-direction: row;
+}
+
+.nav-bar {
+    background-color: #fa7a58;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-container,
+.input-and-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    flex-direction: column;
+    background-image: url("/app/img/download.svg");
+}
+
+.text-box {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.button-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.middle-button {
+    margin-top: 10px;
+}
+
+.middle-text {
+        font-size: 45px;
+        color: #fff;
+        font-weight: 100;
+}
+
+.top-button {
+    margin: 10px;
+}
